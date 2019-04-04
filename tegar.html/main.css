@@ -1,0 +1,26 @@
+.bg-header {
+    background: rgb(116, 117, 122);
+    background-image: url(bg-header1.jpg) no-repeat;
+    background-image: url(bg-header1.jpg), linear-gradient(180deg,rgb(6, 95, 54),rgb(253, 253, 253));
+    background-blend-mode: multiply;
+    background-size : cover;
+    background-position: center;
+}
+.bg-header img {
+    width: 25%;
+
+}
+
+.navbar-title {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: lowercase;
+    text-shadow: 0 3px rgba(255, 255, 255, 0.5);
+    font-size:25px;
+}
+
+
+@media (max-width: 768px) {
+    .bg-header img {
+        width: 50%;
+    }
+}
